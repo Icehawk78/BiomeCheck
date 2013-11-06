@@ -6,7 +6,7 @@
    <Modules>
     <Module Name="biomecheck.dll">
      <Messages>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2013-11-06 18:23:24Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2013-11-06 20:40:11Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Error">Mark 'BiomeCheck.dll' with CLSCompliant(true) because it exposes externally visible types.</Issue>
       </Message>
      </Messages>
@@ -17,7 +17,7 @@
          <Members>
           <Member Name="#DoBiomeCheck(TShockAPI.CommandArgs)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-11-06 18:23:24Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-11-06 20:40:11Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="c:\Users\Nicholas\Documents\Visual Studio 2013\Projects\TerrariaPlugin\BiomeCheck" File="BiomeCheck.cs" Line="104">In externally visible method 'BiomeCheck.DoBiomeCheck(CommandArgs)', validate parameter 'args' before using it.</Issue>
             </Message>
            </Messages>
